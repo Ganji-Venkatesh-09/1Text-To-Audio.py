@@ -21,5 +21,5 @@ print("Welcome to the Text-to-Audio Converter!")
 text = input("Enter the text you want to convert to audio: ")
 
 # Call the function
-text_to_audio(text
+text_to_audio(text)
 
