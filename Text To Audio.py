@@ -24,7 +24,7 @@ text = input("Enter the text you want to convert to audio: ")
 text_to_audio(text)
 .
 .
-Possible Improvements for a Beginner
+'''Possible Improvements for a Beginner
 1️⃣ Handle Empty Input
 Prevent the user from entering an empty text.
     
@@ -37,7 +37,7 @@ else:
 Allow the user to choose a language.
 
 language = input("Enter language code (default: 'en'): ").strip() or "en"
-text_to_audio(text, language)
+text_to_audio(text, language)'''
 
 
 
