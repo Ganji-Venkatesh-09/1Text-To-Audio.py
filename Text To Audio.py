@@ -22,4 +22,22 @@ text = input("Enter the text you want to convert to audio: ")
 
 # Call the function
 text_to_audio(text)
+.
+.
+Possible Improvements for a Beginner
+1️⃣ Handle Empty Input
+Prevent the user from entering an empty text.
+    
+text = input("Enter the text you want to convert to audio: ").strip()
+if not text:
+    print("Error: No text entered!")
+else:
+    text_to_audio(text)
+2️⃣ Support Multiple Languages
+Allow the user to choose a language.
+
+language = input("Enter language code (default: 'en'): ").strip() or "en"
+text_to_audio(text, language)
+
+
 
